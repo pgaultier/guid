@@ -13,7 +13,7 @@
   "keywords" : [ "uuid", "guid" ],
   "autoload" : {
     "psr-4" : {
-      "sweelix\\guid" : ""
+      "sweelix\\guid\\" : ""
     }
   }
 }
