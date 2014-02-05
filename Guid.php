@@ -7,7 +7,7 @@
  * @author    Philippe Gaultier <pgaultier@sweelix.net>
  * @copyright 2010-2014 Sweelix
  * @license   http://www.sweelix.net/license license
- * @version   XXX
+ * @version   1.0.0
  * @link      http://www.sweelix.net
  * @category  guid
  * @package   sweelix.guid
@@ -21,7 +21,7 @@ namespace sweelix\guid;
  * @author    Philippe Gaultier <pgaultier@sweelix.net>
  * @copyright 2010-2014 Sweelix
  * @license   http://www.sweelix.net/license license
- * @version   XXX
+ * @version   1.0.0
  * @link      http://www.sweelix.net
  * @category  guid
  * @package   sweelix.guid
@@ -34,7 +34,7 @@ class Guid {
 	 * @param string $name      name to encode in guid format
 	 *
 	 * @return boolean|string
-	 * @since  XXX
+	 * @since  1.0.0
 	 */
 	public static function v3($namespace, $name) {
 		$result = false;
@@ -81,7 +81,7 @@ class Guid {
 	 * Generate V4 guid
 	 *
 	 * @return string
-	 * @since  XXX
+	 * @since  1.0.0
 	 */
 	public static function v4() {
 		return sprintf('%04x%04x-%04x-%04x-%04x-%04x%04x%04x',
@@ -112,7 +112,7 @@ class Guid {
 	 * @param string $name      name to encode in guid format
 	 *
 	 * @return boolean|string
-	 * @since  XXX
+	 * @since  1.0.0
 	 */
 	public static function v5($namespace, $name) {
 		if(!static::isValid($namespace)) return false;
@@ -161,7 +161,7 @@ class Guid {
 	 * @param ustring $uuid guid to check
 	 *
 	 * @return boolean
-	 * @since  XXX
+	 * @since  1.0.0
 	 */
 	public static function isValid($uuid) {
 		return (preg_match('/^\{?[0-9a-f]{8}\-?[0-9a-f]{4}\-?[0-9a-f]{4}\-?'.
