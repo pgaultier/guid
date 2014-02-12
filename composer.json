@@ -1,19 +1,22 @@
 {
-  "name" : "sweelix/guid",
-  "description" : "Simple GUID generator",
-  "license" : "BSD-3-Clause",
-  "version" : "1.0.0",
-  "require" : {
-    "php" : ">=5.3.0"
-  },
-  "authors" : [ {
-    "name" : "Philippe Gaultier",
-    "email" : "pgaultier@gmail.com"
-  } ],
-  "keywords" : [ "uuid", "guid" ],
-  "autoload" : {
-    "psr-4" : {
-      "sweelix\\guid\\" : ""
-    }
-  }
+	"name" : "sweelix/guid",
+	"description" : "PHP 5.3+ simple GUID generator",
+	"type" : "library",
+	"keywords" : [ "uuid", "guid" ],
+	"license" : "BSD-3-Clause",
+	"authors" : [ {
+	"name" : "Philippe Gaultier",
+		"email" : "pgaultier@sweelix.net"
+	} ],
+	"require" : {
+		"php" : ">=5.3.0"
+	},
+	"require-dev" : {
+		"php" : ">=5.3.0"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"sweelix\\guid\\" : ""
+		}
+	}
 }
