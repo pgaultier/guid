@@ -17,6 +17,13 @@ namespace sweelix\guid;
 
 /**
  * Simple guid generator.
+ * A lot of code as been borrowed around the web.
+ *
+ * <code>
+ *  // generate a v4 guid
+ * 	$guid = Guid::v4();
+ * </code>
+ *
  *
  * @author    Philippe Gaultier <pgaultier@sweelix.net>
  * @copyright 2010-2014 Sweelix
